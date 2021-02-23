@@ -88,5 +88,5 @@ def find_merchandise(country: str = "", season: str = ""):
 
 
 if __name__ == '__main__':
-    log.info('Welcome to the DataServiceProcessingPythonService!')
+    log.info('Welcome to the DataServiceProcessingService!')
     uvicorn.run("app:app", host='0.0.0.0', port=3000, reload=True)
